@@ -11,274 +11,275 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="page-wrapper">
-			<header class="page-header">
-				<div class="header-top">
-					<div class="header-row">
-						<div class="logo">
-							<a href="#">Техномарт</a>
+	<header class="main-header">
+		<div class="header-up">
+			<div class="container">
+				<div class="wrap">
+					<div class="logo">
+						<a href="#">Техномарт</a>
+					</div>
+					<div class="search-form__wrapper">
+						<form action="action.php" class="search-form">
+							<label for="search" class="search-form__label"></label>
+							<input type="text" class="search-form__input" id="search" name="search" placeholder="Поиск:">
+							<button class="btn  search-form__zoom-btn" type="button" name="zoom"></button>
+						</form>
+					</div>
+					<ul class="header-profile">
+						<li class="header-profile__item  header-profile__item--bookmark">
+							<a href="#" class="header-profile__item-link">Закладки: 0</a>
+						</li>
+						<li class="header-profile__item  header-profile__item--cart">
+							<a href="#" class="header-profile__item-link">Корзина: 0</a>
+						</li>
+						<li class="header-profile__item  header-profile__item--active">
+							<a href="#" class="header-profile__item-link">Оформить заказ</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="header-bottom">
+				<div class="slogan">
+					<p class="slogan-text">Интернет-магазин строительных материалов
+						<br> и инструментов для ремонта</p>
+				</div>
+				<div class="header-contacts">
+					<div class="contacts">
+						<div class="phone-number  phone-number--phone">+7 (812) 555-05-55</div>
+						<p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+					</div>
+				</div>
+				<div class="user-navigation">
+					<button class="btn btn-login">Войти</button>
+					<button class="btn btn-registration">Регистрация</button>
+				</div>
+			</div>
+			<nav class="nav-top">
+				<ul class="nav__menu-top">
+					<li class="nav__item-top">
+						<a href="#" class="nav__item-link-top">Главная</a>
+					</li>
+					<li class="nav__item-top">
+						<a href="#" class="nav__item-link-top">Компания</a>
+					</li>
+					<li class="nav__item-top">
+						<a href="#" class="nav__item-link-top">Каталог</a>
+					</li>
+					<li class="nav__item-top">
+						<a href="#" class="nav__item-link-top">Новости</a>
+					</li>
+					<li class="nav__item-top">
+						<a href="#" class="nav__item-link-top">Спецпредложения</a>
+					</li>
+					<li class="nav__item-top">
+						<a href="#" class="nav__item-link-top">Доставка</a>
+					</li>
+					<li class="nav__item-top">
+						<a href="#" class="nav__item-link-top">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		</div>
+	</header>
+	<main class="page-main">
+		<section class="mdse">
+			<div class="container">
+				<h1 class="visually-hidden">Интернет-магазин Техномарт</h1>
+				<div class="categories-tile">
+					<div class="categories-tile--left">
+						<div class="categories__item  categories__item--materials">
+							<div class="categories__item-wrapper">
+								<p class="categories__item-title">Материалы</p>
+								<a class="categories__item-link  categories__item-link--materials" href="">На любой вкус</a>
+							</div>
 						</div>
-						<div class="search-form__wrapper">
-							<form action="action.php" class="search-form">
-								<label for="search" class="search-form__label"></label>
-								<input type="text" class="search-form__input" id="search" name="search" placeholder="Поиск:">
-								<button class="btn  search-form__zoom-btn" type="button" name="zoom"></button>
-							</form>
+						<div class="categories__item  categories__item--instrument">
+							<div class="categories__item-wrapper">
+								<p class="categories__item-title">Инструмент</p>
+								<a class="categories__item-link  categories__item-link--instrument" href="">На все случаи</a>
+							</div>
 						</div>
-						<ul class="header-profile">
-							<li class="header-profile__item  header-profile__item--bookmark">
-								<a href="#" class="header-profile__item-link">Закладки: 0</a>
+						<div class="slider">
+							<div class="categories__slider">
+								<input type="radio" name="slider1" id="slider1_1" checked="checked">
+								<label for="slider1_1"></label>
+								<div>
+									<img src="images/slider/slider_1.jpg" alt="">
+								</div>
+								<input type="radio" name="slider1" id="slider1_2">
+								<label for="slider1_2"></label>
+								<div>
+									<img src="images/slider/slider_2.jpg" alt="">
+								</div>
+								<a class="btn open-catalog" href="#">Открыть каталог</a>
+							</div>
+						</div>
+					</div>
+					<div class="categories__tile--right">
+						<div class="categories__item  categories__item--technics">
+							<div class="categories__item-wrapper">
+								<p class="categories__item-title">Техника</p>
+								<a class="categories__item-link  categories__item-link--technics" href="">для стройки</a>
+							</div>
+						</div>
+						<div class="categories__item  categories__item--discounts">
+							<div class="categories__item-wrapper">
+								<p class="categories__item-title">Скидки 50%</p>
+								<a class="categories__item-link  categories__item-link--discounts" href="">На 350 товаров</a>
+							</div>
+						</div>
+						<div class="categories__item  categories__item--delivery">
+							<div class="categories__item-wrapper">
+								<p class="categories__item-title">Доставка</p>
+								<a class="categories__item-link  categories__item-link--delivery" href="">Бесплатно</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="products">
+					<div class="popular-products">
+						<p class="popular-products-title">Популярные товары</p>
+						<a class="btn  btn-popular-products">Все популярные товары</a>
+					</div>
+					<div class="popular-products-price">
+						<ul class="popular__list">
+							<li class="popular__item">
+								<div class="popular__item-img">
+									<img src="images/model1.png" alt="Перфоратор BOSCH BFG 9000">
+								</div>
+								<div class="popular__item-title">
+									<h2>
+										<a href="#">Перфоратор BOSCH</br>
+											BFG 9000
+										</a>
+									</h2>
+									<p class="oldprice">32500 Р.</p>
+									<span class="newprice  btn">25500 Р.</span>
+								</div>
 							</li>
-							<li class="header-profile__item  header-profile__item--cart">
-								<a href="#" class="header-profile__item-link">Корзина: 0</a>
+							<li class="popular__item">
+								<div class="popular__item-img">
+									<img src="images/model2.png" alt="Перфоратор BOSCH BFG 3000">
+								</div>
+								<div class="popular__item-title">
+									<h2>
+										<a href="#">Перфоратор BOSCH</br>
+											BFG 3000
+										</a>
+									</h2>
+									<p class="oldprice">22500 Р.</p>
+									<span class="newprice  btn">15500 Р.</span>
+								</div>
 							</li>
-							<li class="header-profile__item  header-profile__item--active">
-								<a href="#" class="header-profile__item-link">Оформить заказ</a>
+							<li class="popular__item">
+								<div class="popular__item-img">
+									<img src="images/model3.png" alt="Перфоратор BOSCH BFG 6000">
+								</div>
+								<div class="popular__item-title">
+									<h2>
+										<a href="#">Перфоратор BOSCH</br>
+											BFG 6000
+										</a>
+									</h2>
+									<p class="oldprice">30500 Р.</p>
+									<span class="newprice  btn">25500 Р.</span>
+								</div>
+							</li>
+							<li class="popular__item  popular__item-flag">
+								<div class="popular__item-img">
+									<img src="images/model4.png" alt="Перфоратор BOSCH BFG 2000">
+								</div>
+								<div class="popular__item-title">
+									<h2>
+										<a href="#">Перфоратор BOSCH</br>
+											BFG 2000
+										</a>
+									</h2>
+									<p class="oldprice  oldprice--hide">price</p>
+									<span class="newprice  btn">12500 Р.</span>
+								</div>
 							</li>
 						</ul>
 					</div>
-				</div>
-				<div class="header-bottom">
-					<div class="slogan">
-						<p class="slogan-text">Интернет-магазин строительных материалов
-							<br> и инструментов для ремонта</p>
-					</div>
-					<div class="header-contacts">
-						<div class="contacts">
-							<div class="phone-number  phone-number--phone">+7 (812) 555-05-55</div>
-							<p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+					<div class="popular-vendors">
+						<div class="all-vendors">
+							<p class="all-vendors-title">Популярные Производители:</p>
+							<a class="btn  btn-all-vendors">Все популярные товары</a>
+						</div>
+						<div class="popular-vendor">
+							<ol class="popular-vendor__list">
+								<li class="popular-vendor__item">
+									<a href="">
+										<p class="popular-vendor__item-image">
+											<img src="images/bosch.png" alt="Производитель BOSCH">
+										</p>
+									</a>
+								</li>
+								<li class="popular-vendor__item">
+									<a href="">
+										<p class="popular-vendor__item-image">
+											<img src="images/Makita.png" alt="Производитель Makita">
+										</p>
+									</a>
+								</li>
+								<li class="popular-vendor__item">
+									<a href="">
+										<p class="popular-vendor__item-image">
+											<img src="images/DeWALT.png" alt="Производитель DeWALT">
+										</p>
+									</a>
+								</li>
+								<li class="popular-vendor__item">
+									<a href="">
+										<p class="popular-vendor__item-image">
+											<img src="images/Интерскол.png" alt="Производитель Интерскол">
+										</p>
+									</a>
+								</li>
+								<li class="popular-vendor__item">
+									<a href="">
+										<p class="popular-vendor__item-image">
+											<img src="images/Hitachi.png" alt="Производитель Hitachi">
+										</p>
+									</a>
+								</li>
+								<li class="popular-vendor__item">
+									<a href="">
+										<p class="popular-vendor__item-image">
+											<img src="images/LG.png" alt="Производитель LG">
+										</p>
+									</a>
+								</li>
+								<li class="popular-vendor__item">
+									<a href="">
+										<p class="popular-vendor__item-image">
+											<img src="images/AEG.png" alt="Производитель AEG">
+										</p>
+									</a>
+								</li>
+								<li class="popular-vendor__item">
+									<a href="">
+										<p class="popular-vendor__item-image">
+											<img src="images/Metabo.png" alt="Производитель Metabo">
+										</p>
+									</a>
+								</li>
+								</ul>
 						</div>
 					</div>
-					<div class="user-navigation">
-						<button class="btn btn-login">Войти</button>
-						<button class="btn btn-registration">Регистрация</button>
-					</div>
-				</div>
-				<nav class="nav-top">
-					<ul class="nav__menu-top">
-						<li class="nav__item-top">
-							<a href="#" class="nav__item-link-top">Главная</a>
-						</li>
-						<li class="nav__item-top">
-							<a href="#" class="nav__item-link-top">Компания</a>
-						</li>
-						<li class="nav__item-top">
-							<a href="#" class="nav__item-link-top">Каталог</a>
-						</li>
-						<li class="nav__item-top">
-							<a href="#" class="nav__item-link-top">Новости</a>
-						</li>
-						<li class="nav__item-top">
-							<a href="#" class="nav__item-link-top">Спецпредложения</a>
-						</li>
-						<li class="nav__item-top">
-							<a href="#" class="nav__item-link-top">Доставка</a>
-						</li>
-						<li class="nav__item-top">
-							<a href="#" class="nav__item-link-top">Контакты</a>
-						</li>
-					</ul>
-				</nav>
-			</header>
-			<main class="page-main">
-				<section class="categories">
-					<h1 class="visually-hidden">Интернет-магазин Техномарт</h1>
-					<div class="categories-tile">
-						<div class="categories-tile--left">
-							<div class="categories__item  categories__item--materials">
-								<div class="categories__item-wrapper">
-									<p class="categories__item-title">Материалы</p>
-									<a class="categories__item-link  categories__item-link--materials" href="">На любой вкус</a>
-								</div>
-							</div>
-							<div class="categories__item  categories__item--instrument">
-								<div class="categories__item-wrapper">
-									<p class="categories__item-title">Инструмент</p>
-									<a class="categories__item-link  categories__item-link--instrument" href="">На все случаи</a>
-								</div>
-							</div>
-							<div class="slider">
-								<div class="categories__slider">
-									<input type="radio" name="slider1" id="slider1_1" checked="checked">
-									<label for="slider1_1"></label>
-									<div>
-										<img src="images/slider/slider_1.jpg" alt="">
-									</div>
-									<input type="radio" name="slider1" id="slider1_2">
-									<label for="slider1_2"></label>
-									<div>
-										<img src="images/slider/slider_2.jpg" alt="">
-									</div>
-									<a class="btn open-catalog" href="#">Открыть каталог</a>
-								</div>
-							</div>
-						</div>
-						<div class="categories__tile--right">
-							<div class="categories__item  categories__item--technics">
-								<div class="categories__item-wrapper">
-									<p class="categories__item-title">Техника</p>
-									<a class="categories__item-link  categories__item-link--technics" href="">для стройки</a>
-								</div>
-							</div>
-							<div class="categories__item  categories__item--discounts">
-								<div class="categories__item-wrapper">
-									<p class="categories__item-title">Скидки 50%</p>
-									<a class="categories__item-link  categories__item-link--discounts" href="">На 350 товаров</a>
-								</div>
-							</div>
-							<div class="categories__item  categories__item--delivery">
-								<div class="categories__item-wrapper">
-									<p class="categories__item-title">Доставка</p>
-									<a class="categories__item-link  categories__item-link--delivery" href="">Бесплатно</a>
-								</div>
-							</div>
-						</div>
-					</div>
-		</div>
-		</section>
-		<section class="products">
-			<h2 class="visually-hidden">Популярные товары</h2>
-			<div class="popular-products">
-				<p class="popular-products-title">Популярные товары</p>
-				<a class="btn  btn-popular-products">Все популярные товары</a>
-			</div>
-			<div class="popular-products-price">
-				<ul class="popular__list">
-					<li class="popular__item">
-						<div class="popular__item-img">
-							<img src="images/model1.png" alt="Перфоратор BOSCH BFG 9000">
-						</div>
-						<div class="popular__item-title">
-							<h2>
-								<a href="#">Перфоратор BOSCH</br>
-									BFG 9000
-								</a>
-							</h2>
-							<p class="oldprice">32500 Р.</p>
-							<span class="newprice  btn">25500 Р.</span>
-						</div>
-					</li>
-					<li class="popular__item">
-						<div class="popular__item-img">
-							<img src="images/model2.png" alt="Перфоратор BOSCH BFG 3000">
-						</div>
-						<div class="popular__item-title">
-							<h2>
-								<a href="#">Перфоратор BOSCH</br>
-									BFG 3000
-								</a>
-							</h2>
-							<p class="oldprice">22500 Р.</p>
-							<span class="newprice  btn">15500 Р.</span>
-						</div>
-					</li>
-					<li class="popular__item">
-						<div class="popular__item-img">
-							<img src="images/model3.png" alt="Перфоратор BOSCH BFG 6000">
-						</div>
-						<div class="popular__item-title">
-							<h2>
-								<a href="#">Перфоратор BOSCH</br>
-									BFG 6000
-								</a>
-							</h2>
-							<p class="oldprice">30500 Р.</p>
-							<span class="newprice  btn">25500 Р.</span>
-						</div>
-					</li>
-					<li class="popular__item  popular__item-flag">
-						<div class="popular__item-img">
-							<img src="images/model4.png" alt="Перфоратор BOSCH BFG 2000">
-						</div>
-						<div class="popular__item-title">
-							<h2>
-								<a href="#">Перфоратор BOSCH</br>
-									BFG 2000
-								</a>
-							</h2>
-							<p class="oldprice  oldprice--hide">price</p>
-							<span class="newprice  btn">12500 Р.</span>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</section>
-		<section class="popular-vendors">
-			<h2 class="visually-hidden">Популярные вендоры</h2>
-			<div class="all-vendors">
-				<p class="all-vendors-title">Популярные Производители:</p>
-				<a class="btn  btn-all-vendors">Все популярные товары</a>
-			</div>
-			<div class="popular-vendor">
-				<ol class="popular-vendor__list">
-					<li class="popular-vendor__item">
-						<a href="">
-							<p class="popular-vendor__item-image">
-								<img src="images/bosch.png" alt="Производитель BOSCH">
-							</p>
-						</a>
-					</li>
-					<li class="popular-vendor__item">
-						<a href="">
-							<p class="popular-vendor__item-image">
-								<img src="images/Makita.png" alt="Производитель Makita">
-							</p>
-						</a>
-					</li>
-					<li class="popular-vendor__item">
-						<a href="">
-							<p class="popular-vendor__item-image">
-								<img src="images/DeWALT.png" alt="Производитель DeWALT">
-							</p>
-						</a>
-					</li>
-					<li class="popular-vendor__item">
-						<a href="">
-							<p class="popular-vendor__item-image">
-								<img src="images/Интерскол.png" alt="Производитель Интерскол">
-							</p>
-						</a>
-					</li>
-					<li class="popular-vendor__item">
-						<a href="">
-							<p class="popular-vendor__item-image">
-								<img src="images/Hitachi.png" alt="Производитель Hitachi">
-							</p>
-						</a>
-					</li>
-					<li class="popular-vendor__item">
-						<a href="">
-							<p class="popular-vendor__item-image">
-								<img src="images/LG.png" alt="Производитель LG">
-							</p>
-						</a>
-					</li>
-					<li class="popular-vendor__item">
-						<a href="">
-							<p class="popular-vendor__item-image">
-								<img src="images/AEG.png" alt="Производитель AEG">
-							</p>
-						</a>
-					</li>
-					<li class="popular-vendor__item">
-						<a href="">
-							<p class="popular-vendor__item-image">
-								<img src="images/Metabo.png" alt="Производитель Metabo">
-							</p>
-						</a>
-					</li>
-					</ul>
-			</div>
 		</section>
 		<section class="services">
-			<h2 class="visually-hidden">Сервисы</h2>
-			<div class="services__info">
-				<h3 class="services__title">Сервисы</h3>
-				<p class="services__lead">Хороший интернет-магазин отличается от плохого не только ценами!</br>
-					Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-			</div>
-			<div class="tabs">
+			<div class="container">
+				<h2 class="visually-hidden">Сервисы</h2>
+				<div class="services__info">
+					<h3 class="services__title">Сервисы</h3>
+					<p class="services__lead">Хороший интернет-магазин отличается от плохого не только ценами!</br>
+						Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+				</div>
+				<div class="tabs">
 					<input type="radio" id="tab-1" name="tabs-toggle" checked>
 					<input type="radio" id="tab-2" name="tabs-toggle">
 					<input type="radio" id="tab-3" name="tabs-toggle">
@@ -315,6 +316,7 @@
 						</div>
 					</div>
 				</div>
+			</div>
 		</section>
 		<section class="about">
 			<div class="company">
@@ -336,64 +338,64 @@
 			<div class="map"></div>
 			<button class="btn  btn-enroll"></button>
 		</section>
-		</main>
-		<footer class="page-footer">
-			<div class="page-footer-top">
-				<div class="logo-footer"></div>
-				<nav class="nav-bottom">
-					<ul class="nav___menu-bottom">
-						<li class="nav__item-bottom">
-							<a href="" class="nav__item-link-bottom"></a>
-						</li>
-						<li class="nav__item-bottom">
-							<a href="" class="nav__item-link-bottom"></a>
-						</li>
-						<li class="nav__item-bottom">
-							<a href="" class="nav__item-link-bottom"></a>
-						</li>
-						<li class="nav__item-bottom">
-							<a href="" class="nav__item-link-bottom"></a>
-						</li>
-						<li class="nav__item-bottom">
-							<a href="" class="nav__item-link-bottom"></a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="footer-bottom">
-				<div class="footer__copywriting">
-					<h3></h3>
-					<p></p>
-				</div>
-			</div>
-			<div class="footer__social">
-				<ul class="social">
-					<li class="social__item">
-						<a href="" class="social__link  social__link-vk">
-							<span class="visually-hidden">vkontakte</span>
-						</a>
+	</main>
+	<footer class="page-footer">
+		<div class="page-footer-top">
+			<div class="logo-footer"></div>
+			<nav class="nav-bottom">
+				<ul class="nav___menu-bottom">
+					<li class="nav__item-bottom">
+						<a href="" class="nav__item-link-bottom"></a>
 					</li>
-					<li class="social__item">
-						<a href="" class="social__link  social__link-fb">
-							<span class="visually-hidden">facebook</span>
-						</a>
+					<li class="nav__item-bottom">
+						<a href="" class="nav__item-link-bottom"></a>
 					</li>
-					<li class="social__item">
-						<a href="" class="social__link  social__link-inst">
-							<span class="visually-hidden">instagram</span>
-						</a>
+					<li class="nav__item-bottom">
+						<a href="" class="nav__item-link-bottom"></a>
+					</li>
+					<li class="nav__item-bottom">
+						<a href="" class="nav__item-link-bottom"></a>
+					</li>
+					<li class="nav__item-bottom">
+						<a href="" class="nav__item-link-bottom"></a>
 					</li>
 				</ul>
-			</div>
-			<div class="page-footer__email">
+			</nav>
+		</div>
+		<div class="footer-bottom">
+			<div class="footer__copywriting">
 				<h3></h3>
 				<p></p>
 			</div>
-			<div class="page-footer__developer">
-				<h3></h3>
-				<p></p>
-			</div>
-		</footer>
+		</div>
+		<div class="footer__social">
+			<ul class="social">
+				<li class="social__item">
+					<a href="" class="social__link  social__link-vk">
+						<span class="visually-hidden">vkontakte</span>
+					</a>
+				</li>
+				<li class="social__item">
+					<a href="" class="social__link  social__link-fb">
+						<span class="visually-hidden">facebook</span>
+					</a>
+				</li>
+				<li class="social__item">
+					<a href="" class="social__link  social__link-inst">
+						<span class="visually-hidden">instagram</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="page-footer__email">
+			<h3></h3>
+			<p></p>
+		</div>
+		<div class="page-footer__developer">
+			<h3></h3>
+			<p></p>
+		</div>
+	</footer>
 	</div>
 	</div>
 </body>

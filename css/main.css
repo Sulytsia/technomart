@@ -31,7 +31,6 @@ img {
 	font: inherit;
 	text-align: center;
 	color: #000;
-	vertical-align: middle;
 	text-transform: uppercase;
 	cursor: pointer;
 	background-color: #fff;
@@ -46,23 +45,23 @@ img {
 	margin: -1px;
 }
 
+.main-header {
+	min-height: 320px;
+	margin-bottom: 59px;
+	background-color: #f3f7f8;
+}
+
+.header-up {
+	min-height: 42px;
+  background: #293449;
+}
+
 .container {
-	max-width: 1200px;
-	height: auto;
+	width: 940px;
 	margin: 0 auto;
 }
 
-.page-header {
-	padding-bottom: 60px;
-	background-color: #f2f2f2;
-}
-
-.header-top {
-	padding: 0 130px;
-	background-color: #33445a;
-}
-
-.header-row {
+.wrap {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -192,8 +191,8 @@ img {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	padding: 0 130px;
 	margin-top: 48px;
+	margin-bottom: 43px;
 }
 
 .slogan {
@@ -287,9 +286,7 @@ img {
 	width: 120px;
 	margin-right: 10px;
 	padding: 12px 25px 12px 45px;
-	background-color: #fff;
 	text-transform: capitalize;
-	color: #000;
 }
 
 .btn-login::before {
@@ -307,11 +304,11 @@ img {
 	padding: 12px 25px 12px 25px;
 	text-transform: capitalize;
 	border: none;
-	background-color: #fff;
-	color: #000;
 }
 
 .nav__menu-top {
+	padding: 0;
+	margin: 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -322,17 +319,16 @@ img {
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
 	list-style: none;
-	padding: 22px 130px;
 	background-color: #3d546e;
 }
 
-.nav__item-link-top {
-	padding: 20px 10px;
-	color: #fff;
+.nav__item-top {
+	padding: 20px 0 20px 0;
 }
 
-.wrapper {
-	padding: 0 130px;
+.nav__item-link-top {
+	padding: 20px 20px;
+	color: #fff;
 }
 
 .categories-tile {
@@ -346,7 +342,6 @@ img {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	padding: 0 130px;
 	margin: 60px 0 50px 0;
 	background-color: #fff;
 }
@@ -593,11 +588,6 @@ img {
 	padding: 12px 20px;
 }
 
-.products,
-.popular-vendors {
-	padding: 0 130px;
-}
-
 .popular-products,
 .all-vendors {
 	position: relative;
@@ -785,7 +775,6 @@ img {
 
 .services {
 	background-color: #f4f7f9;
-	padding: 0 130px;
 	margin-top: 65px;
 }
 
